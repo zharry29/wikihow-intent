@@ -1,7 +1,7 @@
 # Intent Detection with WikiHow
 This repository contains pointers to data and models accompanying the paper "Intent Detection with WikiHow" by Li Zhang, Lyu Qing and Chris Callison-Burch.
 
-The data and pre-trained model binaries can be found [here](https://drive.google.com/drive/folders/1QbzEf-1yOz91lEonahVLf082zwuOJ4rj?usp=sharing). [This notebook](https://colab.research.google.com/drive/1zF-BMz_16WZIvpKdqcLSNIzShMuNOso2) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab to avoid dependency issues.
+The data and pre-trained model binaries can be found [here](https://drive.google.com/drive/folders/1w3G7ZqdiskORLl_9pUjE_AXfUMh1-NqJ?usp=sharing). [This notebook](https://colab.research.google.com/drive/1zF-BMz_16WZIvpKdqcLSNIzShMuNOso2) demonstrates how to load and use our pretrained models. It is recommended that you run the notebook using Google Colab to avoid dependency issues.
 
 All our models are implemented using [HuggingFace Transformers](https://github.com/huggingface/transformers) and are hosted on its model hub. You can find the models [here](https://huggingface.co/zharry29). To find hyperparameters, open the link, click on the model name, click on "List all files in model", and then load `training_args.bin` using PyTorch. To use our pretrained models, simply install the library (and its dependencies) and import our models. The model namings are as follows:
 
